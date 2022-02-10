@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <img src="pic_bulboff.gif" alt="" id="photo" onmouseover="on()" onmouseout="off()">
+        
+         <script>
+             function on(){
+                 var data = document.getElementById("photo");
+                 data.src = "pic_bulbon.gif";
+             }
+             function off(){
+                 var data = document.getElementById("photo");
+                 data.src = "pic_bulboff.gif";
+             }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation-name: boxing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 5px;
+}
+@keyframes boxing{
+    0%{ 
+        margin-left: 0%;
+        background-color: red;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 80%;
+        background-color: green;
+         transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 0%;
+        background-color: red;
+         transform: rotate(0deg);
+    }
+}

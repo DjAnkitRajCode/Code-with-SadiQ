@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height:50px;
+    background-color: black;
+}
+body{
+    background-image: url("IMG.jpg");
+    background-size:cover;
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box1{
+    width: 33.3%;
+    height: 400px;
+    background-color:blue;
+    float: left;
+}
+.box2{
+    width: 33.4%;
+    height: 400px;
+    background-color:red;
+    float: left;
+}
+.box3{
+    width: 33.3%;
+    height: 400px;
+    background-color:green;
+    float: left;
+}

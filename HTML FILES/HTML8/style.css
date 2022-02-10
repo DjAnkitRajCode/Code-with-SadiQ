@@ -1,0 +1,11 @@
+body{
+    background:radial-gradient(red,darkred)
+}
+h1{
+    font-size:75px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    text-decoration: underline;
+    font-family:cursive;
+}

@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>colour changer program</title>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet">
+    </head>
+    
+    <body onload="play_clock()" id="ankit">
+      <div class="head">
+      
+       <div class="clock">
+            <h1 id="clock"></h1>
+        </div>
+        <!--break-->
+        <div class="i1">
+            <h1>Input BG Colour</h1><input type="text" placeholder="Input colour" id="input">
+            <button class="b1" type="submit" onclick="change()">Apply colour</button>
+        </div>
+        <div class="box">
+        <button class="b1" onclick="badal('Red')">Red</button>
+        <button class="b2" onclick="badal('Green')">Green</button>
+        <button class="b2" onclick="badal('Blue')">Blue</button>
+        <button class="b2" onclick="badal('Lime')">Lime</button>
+        </div>
+        <!--break-->
+        <div>
+        <div class="state">
+            <h2>STATE</h2><input type="text" placeholder="search state capital" id="take">
+            <button class="b1" type="submit" onclick="state()">Search Capital</button>
+        </div>
+        <div class="dis">
+            <h2>CAPITAL</h2><h1 id="display"></h1>
+        </div>
+        </div>
+        <!--break-->
+        </div>
+       
+    </body>
+</html>

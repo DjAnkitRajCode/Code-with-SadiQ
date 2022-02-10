@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h1{
+            color: white;
+            font-size: 200px;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 150px;
+            text-shadow: 3px 2px 2px black;
+        }
+        body{
+            background:radial-gradient(red,darkred);
+            height: 600px;
+        }
+    
+    </style>
+</head>
+<body onload="play_clock()" >
+    
+       <h1 id="clock"></h1>
+       <script>
+        
+        function play_clock(){
+            setInterval(show_clock,1000);
+        }
+        
+        function show_clock(){
+            var clock = document.getElementById("clock");
+            var date = new Date();
+            
+            var h = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            
+            clock.innerHTML = h + ":" + m + ":" + s; 
+            
+        }
+        
+    </script>
+    <button onclick="window.print()">print</button>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+body{
+    background: radial-gradient(darkred,red);
+    height: 700px;
+}
+div{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    float: left;
+    animation-iteration-count: infinite;
+    animation-name: name;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    
+}
+@keyframes name{
+    0%{
+        margin-top: 0;
+    }
+    50%{
+        margin-top: 100px;
+        padding: 4PX;
+        border-radius: 50%;
+        margin-left: 50PX;
+    }
+    100%{
+        margin-top: 0;
+    }
+}
+.box1{
+    animation-delay: 1s;
+}
+.box2{
+    animation-delay: 0.9s;
+}
+.box3{
+    animation-delay: 0.8s;
+}
+.box4{
+    animation-delay: 0.7s;
+}
+.box5{
+    animation-delay: 0.6s;
+}
+.box6{
+    animation-delay: 0.5s;
+}
+.box7{
+    animation-delay: 0.4s;
+}
+.box8{
+    animation-delay: 0.3s;
+}
+.box9{
+    animation-delay: 0.2s;
+}
+.box10{
+    animation-delay: 0.1s;
+}

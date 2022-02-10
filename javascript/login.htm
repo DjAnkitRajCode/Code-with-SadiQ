@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body id="body">
+    
+    <h1 id="head"></h1>
+    
+    <script>
+        var h = document.getElementById("head");
+        var b = document.getElementById("body");
+        
+        var email=prompt("please enter email")
+        var password=prompt("please enter password")
+        
+        if(email=="ankit" && password=="1234"){
+            h.innerHTML = "you are login";
+        }
+        else{
+            alert("email and password incorrect");
+        }
+    </script>
+    
+</body>
+</html>

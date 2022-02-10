@@ -1,0 +1,14 @@
+body{
+    height: 600px;
+}
+h1{
+    font-size: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    margin-left: 20%;
+    margin-top: 150px;
+    text-shadow: 3px 2px 4px black;
+}
